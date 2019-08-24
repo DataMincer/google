@@ -21,7 +21,7 @@
       "DataMincerGoogle\\": "src/"
     },
     "files": [
-      "src/Workers/readers/GoogleSpreadsheets.php"
+      "src/Workers/readers/GoogleSpreadsheet.php"
     ]
   }
 }
