@@ -1,0 +1,26 @@
+{
+  "name": "datamincer/google",
+  "version": "0.1",
+  "description": "DataMincer: Google Plugins",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Artiom Neganov",
+      "email": "aneganov@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "prefer-stable": true,
+  "require":  {
+    "datamincer/core": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "DataMincerGoogle\\": "src/"
+    },
+    "files": [
+      "src/Workers/readers/GoogleSpreadsheets.php"
+    ]
+  }
+}
