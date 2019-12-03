@@ -10,9 +10,8 @@
     }
   ],
   "type": "library",
-  "prefer-stable": true,
   "require":  {
-    "datamincer/core": "dev-master",
+    "datamincer/core": "*",
     "google/apiclient": "^2.0"
   },
   "autoload": {
